@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Missing Person Identification</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AdminLogin</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.connection.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddPolice</display-name>
+    <servlet-name>AddPolice</servlet-name>
+    <servlet-class>com.operation.AddPolice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddPolice</servlet-name>
+    <url-pattern>/AddPolice</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PoliceLogin</display-name>
+    <servlet-name>PoliceLogin</servlet-name>
+    <servlet-class>com.connection.PoliceLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PoliceLogin</servlet-name>
+    <url-pattern>/PoliceLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddMissing</display-name>
+    <servlet-name>AddMissing</servlet-name>
+    <servlet-class>com.operation.AddMissing</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMissing</servlet-name>
+    <url-pattern>/AddMissing</url-pattern>
+  </servlet-mapping>
+</web-app>
