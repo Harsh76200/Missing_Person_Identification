@@ -1,5 +1,7 @@
 # Missing Person Identification | Web Application
 
+![Alt text](https://ibb.co/DkwT7vm)
+
 ## Overview
 
 The Missing Person Identification web application utilizes cutting-edge camera technology for precise and rapid face detection and recognition. This tool is designed to support law enforcement and other authorities in tracking down missing individuals efficiently. The project aims to address a critical real-world issue by offering a robust solution for face recognition.
