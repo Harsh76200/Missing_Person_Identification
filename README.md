@@ -1,6 +1,10 @@
 # Missing Person Identification | Web Application
 
-![Alt text](https://ibb.co/DkwT7vm)
+<div style="display: flex; gap: 50px;">
+  <img src="images/p1.jpeg" alt="My Project Logo" width="650" /><br><br>
+  <img src="images/p3.jpeg" alt="My Project Logo" width="450" /><br><br>
+  <img src="images/p2.jpeg" alt="My Project Logo" width="650" />
+</div>
 
 ## Overview
 
